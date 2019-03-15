@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\levelManager.cs" />
     <Compile Include="Assets\scrits\myAvatar.cs" />
     <Compile Include="Assets\scrits\Script_Moneda.cs" />
     <None Include="Assets\personajes\Mario\Donkey Kong\readme.txt" />
@@ -319,7 +320,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
