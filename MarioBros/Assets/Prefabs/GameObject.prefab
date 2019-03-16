@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4438758138003654222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.24, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 5.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4438758138535659801}
@@ -50,26 +50,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!95 &3428962653538055573
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4438758138535826747}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0fe5209fb62f13e418ca1dafe78cb14c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &5586586353276738484
+--- !u!65 &4647255424342152851
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81,7 +62,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.230868, y: 3, z: 3.230868}
-  m_Center: {x: -0.00000023841858, y: 0, z: 0}
+  m_Center: {x: -0.0000009536743, y: 0, z: 0}
 --- !u!64 &6957499876812044618
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -96,6 +77,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
+--- !u!114 &5302529227095677649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4438758138535826747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93bcbdc4581784941bbab751c50461a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubo: {fileID: 4438758138535826747}
+  moneda: {fileID: 1047827098239086, guid: 4aa1f40666e18c042be4ef09d18571f1, type: 3}
+  fuerzaSalto: 300
 --- !u!1001 &4438758138535793563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109,7 +105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -165,7 +161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.4
+      value: 12.24
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
       propertyPath: m_LocalPosition.z
