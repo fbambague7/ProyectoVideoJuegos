@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TimerContador : MonoBehaviour
@@ -24,6 +25,11 @@ public class TimerContador : MonoBehaviour
         {
             contador.text = "0";
             fin.enabled = true;
+            CargaNivel("GameOver");
         }
+    }
+    public void CargaNivel(string pNombreNivel)
+    {
+        SceneManager.LoadScene(pNombreNivel);
     }
 }
