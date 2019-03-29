@@ -77,6 +77,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
+--- !u!95 &722814762961812923
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4438758138535826747}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44d2269b843276a449340ac27aaccc3b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &5302529227095677649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,6 +121,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
       propertyPath: m_Name
       value: QuestionBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.2
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -158,14 +185,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.2
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 6aba025e2eb934c428a67508f438fbbc, type: 3}
       propertyPath: m_Materials.Array.data[0]
